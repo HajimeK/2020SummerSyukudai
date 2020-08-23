@@ -2,7 +2,7 @@
 from microbit import *
 
 display.scroll('Mahiro 2020')
-#display.show(Image.FABULOUS)
+#display.show(Image.FABULOUS)fds
 
 on = 1
 off = 0
@@ -24,7 +24,7 @@ def wait_500():
 def wait_10000():
     sleep(10000)
 
-while True　#永遠に繰り返す
+while True: #永遠に繰り返す
     for i in range(3): # 3回くりかえす
         one(on)
         wait_500()
