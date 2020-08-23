@@ -11,10 +11,10 @@ def one(a):
     pin0.write_digital(a)
 
 def two(a):
-    pin0.write_digital(a)
+    pin1.write_digital(a)
 
 def three(a):
-    pin0.write_digital(a)
+    pin2.write_digital(a)
 
 # 0.5秒待つ
 def wait_500():
@@ -32,6 +32,11 @@ while True: #永遠に繰り返す
         wait_500()
         three(on)
 
+    # 全部けす
+    one(off)
+    two(off)
+    three(off)
+    
     for i in range(5): # ５回くりかえす
         one(on)
         wait_500()
