@@ -1,0 +1,6 @@
+{
+  "build": {
+    "target": "bbc-microbit-classig-gcc-nosd,*",
+    "targetSetExplicitly": true
+  }
+}
